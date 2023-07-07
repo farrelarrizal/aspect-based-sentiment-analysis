@@ -1,0 +1,9 @@
+language-support: ['id', 'en']
+checkpoint:
+  ate:
+    en: checkpoints/ENGLISH_ATE_TOURISM
+    id: checkpoints/INDONESIA_ATE_TOURISM
+  apc:
+    en: checkpoints/ENGLISH_APC_TOURISM
+    id: checkpoints/INDONESIA_APC_TOURISM
+  
