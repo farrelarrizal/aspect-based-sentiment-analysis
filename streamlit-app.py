@@ -53,7 +53,7 @@ with st.form(key="single_text_form"):
         "tempat waterboom terbaik dengan segala wahana yang sangat beragam. Tempat makan yang cukup banyak sehingga orang tua tidak terlalu bosan. Jangan lupa untuk membawa handuk agar tidak basah."
     ]
 
-    text = st.text_area(label='input text with aspect to get more accurate analysis',label_visibility="visible", value=random.choice(example_review))
+    text = st.text_area(label='input text with labeled aspect to get more accurate analysis',label_visibility="visible", value=random.choice(example_review))
     language = st.radio('Select Text Language:', ('auto-detect', 'english', 'indonesia')) 
     single_predict = st.form_submit_button("Let's Go!")
 
